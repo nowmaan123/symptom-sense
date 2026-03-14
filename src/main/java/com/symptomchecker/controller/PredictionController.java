@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/predictions")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://symptom-sense-frontend.onrender.com")
 public class PredictionController {
 
     private final PredictionService predictionService;

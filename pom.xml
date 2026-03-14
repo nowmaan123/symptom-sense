@@ -20,6 +20,12 @@
 <springdoc.version>2.5.0</springdoc.version>
 </properties>
 <dependencies>
+
+<dependency>
+<groupId>org.postgresql</groupId>
+<artifactId>postgresql</artifactId>
+<scope>runtime</scope>
+</dependency>
 <!--  Spring Boot Starters  -->
 <dependency>
 <groupId>org.springframework.boot</groupId>
